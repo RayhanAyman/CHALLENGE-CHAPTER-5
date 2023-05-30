@@ -1,0 +1,67 @@
+* {
+     margin: 0;
+     padding: 0;
+     background-color: #9C835F;
+}
+
+.navbar, .navbar a {
+     background-color: #9C835F;
+     color:  #F9B23D;
+     font-size: 20px;
+     font-weight: 600;
+}
+
+.navbar a:hover{
+     color: #fff;
+}
+
+.game img {
+     width: 128px;
+     height: 92px;
+     display: block;
+     
+     margin: auto;
+}
+
+.vs {
+     position: relative;
+     top: 200px;
+}
+
+.refresh {
+     position: relative;
+     top: 120px;
+}
+
+.refresh:hover{
+     border: 1px solid black;
+     border-color: #C4C4C4;
+     border-radius: 10px;
+     background-color: #C4C4C4;
+}
+
+.batu:hover {
+     border: 1px solid black;
+     border-color: #C4C4C4;
+     border-radius: 10px;
+     background-color: #C4C4C4;
+}
+
+.gunting:hover{
+     border: 1px solid black;
+     border-color: #C4C4C4;
+     border-radius: 10px;
+     background-color: #C4C4C4;
+}
+
+.kertas:hover {
+     border: 1px solid black;
+     border-color: #C4C4C4;
+     border-radius: 10px;
+     background-color: #C4C4C4;
+}
+
+
+
+
+

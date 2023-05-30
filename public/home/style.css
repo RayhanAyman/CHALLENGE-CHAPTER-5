@@ -1,0 +1,429 @@
+* {
+     padding: 0;
+     margin: 0;
+     overflow-x: hidden;
+}
+
+#navBar {
+     background-color:rgba(0, 0, 0, 0.5);
+     height: 68px;
+     
+}
+
+#navMenu a {
+     font-size: 14px;
+     color: #fff;
+}
+
+#navMenu ul li a:hover {
+     color: #ffb548;
+}
+
+
+
+.cover-1 {
+     background-image: url('./assets/main-bg.jpg');
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+
+}
+
+.cover-1 .container {
+     height: 100vh;
+
+}
+
+.text {
+     position: relative;
+     top: 280px;
+
+}
+
+.text h1 {
+     font-size: 58px;
+     text-align: center;
+     color: #fff;
+}
+
+.text p {
+     text-align: center;
+     color: #fff;
+     padding-top: 20px;
+}
+
+#button-content {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 60px;
+     width: 180px;
+}
+
+.scroll p {
+     font-size: 8px;
+     color: #fff;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     margin-top: 400px;
+}
+
+.scroll-down {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.cover-2 {
+     background-image: url('./assets/the-games-bg.jpg');
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+     display: flex;
+     align-items: center;
+}
+#carouselBox {
+
+}
+.carousel-control-prev {
+     margin-left: -80px;
+}
+
+.carousel-control-next {
+     margin-right: -80px;
+}
+
+.carousel-indicators {
+     
+}
+
+.cover-3 {
+     background-image: url('./assets/features-bg.jpg');
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     box-shadow: 0px 0px 100px 50px rgba(0, 0, 0, 0.7) inset;
+     display: flex;
+     align-items: center;
+}
+
+.cover-3 .feature-list h5 {
+     color: #ffc107;
+}
+
+.feature-box {
+     display: flex;
+     align-items: center;
+}
+
+.feature-list:before {
+     content: '';
+     background-color: #fff;
+     position: absolute;
+     margin-top: 3px;
+     left: 19px;
+     height: 120px;
+     width: 3px;
+}
+
+#feature-item-active {
+     
+}
+
+.feature-box ul  {list-style: none;}
+
+
+#feature-item-active:before {
+     background-image: url('./assets/ellipse.svg');
+     content: '';
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     left: 12px;
+}
+
+
+#feature-item-inactive:before {
+     background-image: url('./assets/ellipse-outline.svg');
+     content: '';
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     left: 12px;
+}
+
+
+@media only screen and (max-width: 620px){
+     body {
+          overflow-x: hidden;
+
+     }
+     .cover-1 {
+          background-position: center ;
+          background-size: cover;
+     }
+     .feature-list:before {
+          content: '';
+          background-color: #fff;
+          position: absolute;
+          margin-top: 3px;
+          left: 19px;
+          height: 119px;
+          width: 3px;
+     }
+}
+
+@media only screen and (max-width: 520px){
+     .feature-list:before {
+          content: '';
+          background-color: #fff;
+          position: absolute;
+          margin-top: 3px;
+          left: 19px;
+          height: 143px;
+          width: 3px;
+     }
+}
+
+.cover-4 {
+     background-image: url('./assets/requirements.png');
+     height: 100vh;
+     background-position: center;
+     background-size: cover;
+}
+
+.cover-4 h5 {
+     color: #fff;
+     text-align: center;
+     padding-top: 68px;
+     font-size: 0.9rem;
+     font-weight: 300;
+     
+}
+
+.table {
+     margin-left: 45px;
+     margin-top: 20px;
+     width: 573px;
+     height: 400px;
+}
+
+.cover-4 table, th {
+     border: 1px solid #979797;
+     opacity: .8;
+}
+
+.cover-4 td {border: 1px solid #979797;}
+
+.cover-4 table h5 {
+     padding-top: 20px;
+     display: flex;
+     font-size: 20px;
+     font-weight: 300;
+     color: #ffb548;
+}
+
+.cover-5 {
+     background-image: url('./assets/newsletter.png');
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+}
+
+.btn {
+     margin-bottom: 20px;
+}
+
+#card-1,#card-2 {
+     width: 453px;
+     height: 205px;
+     border-radius: 10px;
+     border: none;
+     background-color: #222;
+}
+
+
+#twitter {
+     position: absolute;
+     left: 400px;
+     top: 30px;
+}
+
+.card-title {
+     margin-left: 100px;
+     position: absolute;
+     top: 20px;
+}
+
+.card h6 {
+     position: absolute;
+     left: 100px;
+     margin-top: -40px;
+     color: #fff;
+     opacity: 0.5;
+}
+
+.users-1, .users-2 {
+     width: 63px;
+     height: 63px;
+     border-radius: 50%;
+     margin: 10px;
+}
+
+#small {
+     color: #fff;
+     opacity: 0.5;
+     margin: 15px;
+}
+
+.card-middle {
+     position: absolute;
+     left: -75px;
+     
+}
+
+.cover-6 {
+     background-image: url('./assets/newsletter.png');
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+}
+
+
+.text-box {
+     width: 250px;
+     height: auto;
+     color: #fff;
+     position: absolute;
+     margin-top: -460px;
+     margin-left: -50px;
+}
+
+.description {
+     color: #fff;
+     font-size: 14px;
+     width: 400px;
+     position: absolute;
+     margin-top: -280px;
+     margin-left: -50px;
+
+}
+
+.img-fluid {
+     width: 445px;
+     height: 694px;
+}
+
+.labelEmail {
+     position: absolute;
+     margin-top: -50px;
+}
+
+#inputEmail {
+     background-color: #222;
+     border: none;
+     border-top-left-radius: 5px;
+}
+
+@media (min-width: 786px){
+     #inputEmail {
+          height: 50px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #card-cover {
+     border: none;
+     border-radius: 10px;
+     width: 453px;
+     height: 205px;
+}
+#card-1,#card-2,#card-3 {
+     background-color: #222222;
+     border-radius: 10px;
+}
+
+#card-1 img,#card-2 img,#card-3 img {
+     border-radius: 50%;
+
+}
+
+.users-1, .users-2, .users-3 {
+     width: 63px;
+     height: 63px;
+     display: inline-block;
+}
+
+.twitter {
+     display: absolute;
+     top: ;
+     left: 300px;
+} */
+
+/* .card-title {
+     color: #ffb548;
+}
+
+.card-body h5, .card-body h6 {
+     display: inline;
+}
+
+.card-body h6{
+     position: inline;
+     top: 25px;
+     left: -95px;
+}
+
+.card-twitter {
+     background-image: url('/assets/twitter-card.png');
+     background-color: #eee;
+     height: 20px;
+     width: 20px;
+}
+
+@media (min-width: 786px) {
+     .card-middle {
+          position: relative;
+          left: -75px;
+     }
+} */
+/* .card #card-1 {
+     background-color: #454545;
+} */
+
